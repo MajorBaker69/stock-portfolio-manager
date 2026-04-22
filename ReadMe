@@ -1,0 +1,15 @@
+# 1. Initialize Git in your project folder
+git init
+
+# 2. Add all files
+git add .
+
+# 3. Commit with a message
+git commit -m "Initial commit - Stock Portfolio Manager"
+
+# 4. Connect to your GitHub repo (replace YOUR_USERNAME)
+git remote add origin https://github.com/Majorbaker69/stock-portfolio-manager.git
+
+# 5. Push to GitHub
+git branch -M main
+git push -u origin main
